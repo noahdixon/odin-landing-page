@@ -1,28 +1,34 @@
+/* * { border: 1px solid black; } */
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    height: 80px;
     background-color: #1f2937;
     padding: 0;
-    color: aliceblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    height: 50px;
+    padding-top: 15px;
+    height: 60px;
     width: auto;
+    margin-left: 60px;
 }
 
 .header-links {
-    margin-right: 20px;
+    margin-right: 100px;
     display: flex;
     gap: 20px;
     list-style-type: none;
+    flex-shrink: 0;
 }
 
 .header-link {
@@ -30,3 +36,78 @@ body {
     text-decoration: none;
     font-size: 18px;
   }
+
+.awesome {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    color: aliceblue;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.awesome-wrapper {
+    max-height: 300px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.awesome-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.awesome-description {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.button1 {
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.image {
+    background-color: #60646b;
+    width: 300px;
+    padding: 95px 0;
+    margin-right: 100px;
+    border-radius: 5px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.random {
+    background-color: aliceblue;
+    height: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 100px;
+}
+
+.signup {
+    background-color: aliceblue;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.footer {
+    height: 40px;
+    font-size: 12px;
+    color: aliceblue;
+    background-color: #1f2937;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
