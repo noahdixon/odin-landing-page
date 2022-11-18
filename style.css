@@ -88,7 +88,43 @@ body {
 
 .random {
     background-color: aliceblue;
-    height: 100px;
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.blockwrapper {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 150px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    color: #1f2937;;
+    flex-shrink: 0;
+}
+
+.blockpic {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    display: block;
+    margin: auto;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .quote {
