@@ -177,7 +177,7 @@ body {
     height: 100px;
     width: 700px;
     min-width: 230px;
-    margin: 50px;
+    margin: 100px 0;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
