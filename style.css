@@ -68,6 +68,7 @@ body {
 .awesome-text {
     font-size: 48px;
     font-weight: bolder;
+    padding: 0;
 }
 
 .awesome-description {
@@ -104,13 +105,20 @@ body {
 }
 
 .block-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.block-container {
     background-color: aliceblue;
     display: flex;
     justify-content: center; 
     padding-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
     min-width: 330px;
+    width: 900px;
     flex-wrap: wrap;
 }
 
@@ -136,15 +144,66 @@ body {
     margin-bottom: 10px;
 }
 
-.quote {
+.quote-wrapper {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
-    height: 100px;
+
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+    background-color: #E5E7EB;
+}
+
+.quote-author {
+    width: 800px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .signup {
-    background-color: aliceblue;
+    background-color: #3882f6;
     height: 100px;
-    flex-grow: 1;
+    width: 700px;
+    min-width: 230px;
+    margin: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.action {
+    color: aliceblue;
+}
+
+.product {
+    color: aliceblue;
+    font-size: 8;
+    font-weight: 200;
+}
+
+.button2 {
+    padding: 10px 20px;
+    color: aliceblue;
+    border-color: aliceblue;
+    background-color: #3882f6;
+    border-width: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .footer {
@@ -156,4 +215,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-width: 2px;
 }
